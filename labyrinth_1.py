@@ -1092,8 +1092,6 @@ while True:
                 guideflag = False
                 updatescore(i)
 
-                players[i].cards = []
-
                 if len(players[i].cards) == 0:
                         win = True
                         flag = "win"
